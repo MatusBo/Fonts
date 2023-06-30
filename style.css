@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Ogg-Light";
+  src: url(./ogg-font-family/Ogg-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Ogg-Medium";
+  src: url(./ogg-font-family/Ogg-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Italic";
+  src: url(./ogg-font-family/OggText-LightItalic.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Ogg-Bold";
+  src: url(./ogg-font-family/Ogg-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "TradeGothicLT";
+  src: url(./ogg-font-family/TradeGothicLT.woff) format("woff");
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+}
+
+sup {
+  opacity: 55%;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+h1 {
+  font-family: "Ogg-Light";
+  font-size: 60px;
+  line-height: 64px;
+}
+
+.green {
+  color: #71870e;
+}
+
+.italic {
+  font-family: "Italic";
+}
+
+p,
+sup {
+  font-family: "TradeGothicLT";
+}
+
+.text {
+  opacity: 85%;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.line {
+  font-family: "Ogg-Medium";
+  opacity: 80%;
+  font-size: 96px;
+  line-height: 100px;
+  color: #d0a049;
+}
+.more {
+  opacity: 80%;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d0a049;
+}
+
+.information {
+  opacity: 80%;
+  font-size: 16px;
+  line-height: 24px;
+  color: #71870e;
+}
+/*
+.img {
+  background-image: url(./img/forest.png);
+} */
